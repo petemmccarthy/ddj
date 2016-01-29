@@ -1,4 +1,22 @@
-
 <div class="app">
-  {{outlet}}
+  <nav class="navbar navbar-default main-menu">
+    <div class="container-fluid menuitem-container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Digital Dream Jobs</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about" id="menuitem-home">About</a></li>
+          <li><a href="#work" id="menuitem-profile">Profile</a></li>
+          <li><a href="#contact" id="menuitem-contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </div>
+
+<!-- <div class="page-divider"></div> -->
+
+{{yield}}
+{{outlet}}
