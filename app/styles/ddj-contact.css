@@ -77,6 +77,9 @@ ul {
 	margin-top: 20px;
 	padding: 0px;
 }
+.icons {
+	text-align: center;
+}
 .icon-container {
 	display: -webkit-box;
   display: -moz-box;
@@ -151,25 +154,6 @@ a {
 }
 #linkedin-small:hover {
 	background-color: #2A8BAF;
-	transition: all .1s ease;
-}
-
-#github-small{
- -webkit-box-shadow: 0px 6px 0px #000000;
-  -moz-box-shadow: 0px 6px 0px #000000;
-  box-shadow: 0px 6px 0px #000000;
-
-	background:#3A3A3A url("../images/github.png") no-repeat center center;
-	background-size: 54px;
-	width: 60px;
-	-webkit-font-smoothing: antialiased;
-}
-#github-small:active{ -webkit-box-shadow: 0px 2px 0px #000000;
-  -moz-box-shadow: 0px 2px 0px #000000;
-  box-shadow: 0px 2px 0px #000000;
-}
-#github-small:hover {
-	background-color: #4E4E4E;
 	transition: all .1s ease;
 }
 
