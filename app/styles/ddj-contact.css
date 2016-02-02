@@ -1,3 +1,7 @@
+.home {
+	text-align: center;
+}
+
 .contact-container {
 	text-align: center;
 	font-family: "Helvetica Neue", Helvetica;
@@ -63,9 +67,7 @@ ul {
 	margin-top: 20px;
 	padding: 0px;
 }
-.icons {
-	text-align: center;
-}
+
 .icon-container {
 	display: -webkit-box;
   display: -moz-box;
@@ -166,5 +168,4 @@ a:active {
   -webkit-transform: translate(0, 3px);
 	-moz-transform: translate(0, 3px);
 	transform: translate(0, 3px);
-}
 }
